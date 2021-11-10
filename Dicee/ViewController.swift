@@ -12,8 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var diceTwo: UIImageView!
     @IBOutlet weak var diceOne: UIImageView!
     
-    var leftDiceNumber = 1
-    var rightDiceNumber = 2
+//    var leftDiceNumber = 1
+//    var rightDiceNumber = 5
     
     
     override func viewDidLoad() {
@@ -24,11 +24,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonPressed(_ sender: UIButton) {
-        diceOne.image = [#imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo.jpg"), #imageLiteral(resourceName: "DiceThree.jpg"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceFive")][leftDiceNumber]
-        diceTwo.image = [#imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo.jpg"), #imageLiteral(resourceName: "DiceThree.jpg"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceFive")][rightDiceNumber]
+        let array = [#imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo.jpg"), #imageLiteral(resourceName: "DiceThree.jpg"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceFive")]
+        diceOne.image = array[Int.random(in: 0...5)]
+        diceTwo.image = array[Int.random(in: 0...5)]
         
-        leftDiceNumber += 1
-        rightDiceNumber -= 1
+//        leftDiceNumber += 1
+//        rightDiceNumber -= 1
     }
     
 }
