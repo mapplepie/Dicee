@@ -11,8 +11,8 @@
 		126E03AA273BC2CD00EE89BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126E03A9273BC2CD00EE89BC /* SceneDelegate.swift */; };
 		126E03AC273BC2CD00EE89BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126E03AB273BC2CD00EE89BC /* ViewController.swift */; };
 		126E03AF273BC2CD00EE89BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126E03AD273BC2CD00EE89BC /* Main.storyboard */; };
-		126E03B1273BC2D000EE89BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126E03B0273BC2D000EE89BC /* Assets.xcassets */; };
 		126E03B4273BC2D000EE89BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126E03B2273BC2D000EE89BC /* LaunchScreen.storyboard */; };
+		126E03BC273BC4A100EE89BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126E03BB273BC4A100EE89BC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +21,9 @@
 		126E03A9273BC2CD00EE89BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		126E03AB273BC2CD00EE89BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		126E03AE273BC2CD00EE89BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		126E03B0273BC2D000EE89BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		126E03B3273BC2D000EE89BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		126E03B5273BC2D000EE89BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126E03BB273BC4A100EE89BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Documents/Dicee-iOS13/Dicee-iOS13/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 				126E03A9273BC2CD00EE89BC /* SceneDelegate.swift */,
 				126E03AB273BC2CD00EE89BC /* ViewController.swift */,
 				126E03AD273BC2CD00EE89BC /* Main.storyboard */,
-				126E03B0273BC2D000EE89BC /* Assets.xcassets */,
 				126E03B2273BC2D000EE89BC /* LaunchScreen.storyboard */,
+				126E03BB273BC4A100EE89BC /* Assets.xcassets */,
 				126E03B5273BC2D000EE89BC /* Info.plist */,
 			);
 			path = Dicee;
@@ -126,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				126E03B4273BC2D000EE89BC /* LaunchScreen.storyboard in Resources */,
-				126E03B1273BC2D000EE89BC /* Assets.xcassets in Resources */,
+				126E03BC273BC4A100EE89BC /* Assets.xcassets in Resources */,
 				126E03AF273BC2CD00EE89BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
